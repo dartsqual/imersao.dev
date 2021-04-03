@@ -1,0 +1,63 @@
+body{
+  background-color: #009688;
+  font-family: 'Lobster', cursive;
+}
+section {
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 15px;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 4px;
+ 
+}
+
+section h1 {
+  font-size: 25px;
+  display:flex;
+  justify-content: space-between;
+}
+
+header {
+  background-image: url("https://builtin.com/sites/default/files/styles/twitter/public/2019-06/Recurrent-Neural-Networks-and-LSTM.png");
+  background-size: cover;
+  height: 80px;
+  border-radius: 4px;
+}
+
+div {
+  padding: 15px;
+  background-color: #eeeeee;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.div li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.div li a:hover {
+  color:#7B1FA2;
+}
+
+.img a:hover {
+  color:#7B1FA2;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  border: 8px solid white;
+  transform: translateY(-50%)
+}
